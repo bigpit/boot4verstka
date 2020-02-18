@@ -1,0 +1,26 @@
+.header .container {
+  text-align: center;
+  padding: 180px 0;
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: 0 100%;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+.header p {
+  font-size: 22px;
+  font-family: 'Open Sans Regular';
+}
+
+.header button {
+  padding: 10px 25px;
+  margin: 0 10px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=header.css.map */

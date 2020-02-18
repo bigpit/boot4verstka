@@ -1,0 +1,285 @@
+body {
+  font-family: 'Open Sans';
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.tpl-title, #services .first_row h2, #portfolio h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #212121;
+}
+
+.tpl-desc, #portfolio p {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: #212121;
+}
+
+.tpl-h3, #services h3 {
+  font-size: 20px;
+  font-family: "Open Sans Semibold";
+}
+
+.menu-bar {
+  background-color: #fff;
+  color: #212121;
+  padding: 20px 0;
+}
+
+.menu-bar li {
+  margin-left: 37px;
+}
+
+.menu-bar li a {
+  font-family: "Open Sans Semibold";
+  font-size: 20px;
+  color: #212121;
+}
+
+.menu-bar li a:hover {
+  text-decoration: none;
+  color: #999;
+}
+
+.header {
+  text-align: center;
+  padding: 180px 0;
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: 0 100%;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+.header p {
+  font-size: 22px;
+  font-family: "Open Sans Regular";
+  padding-bottom: 100px;
+}
+
+.header button {
+  text-transform: uppercase;
+  padding: 10px 25px;
+  margin: 0 10px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #00897b;
+  border: 2px solid #00897b;
+}
+
+.header button:hover {
+  background-color: #026056;
+  border: 2px solid #fff;
+}
+
+#about {
+  color: #212121;
+  background-color: #fff;
+  text-align: center;
+  padding: 120px 0;
+}
+
+#about .first_row h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#about .first_row p {
+  font-size: 15px;
+  font-family: "Open Sans Regular";
+  padding-bottom: 110px;
+}
+
+#about h3 {
+  font-size: 20px;
+  font-family: "Open Sans Semibold";
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+#about p {
+  font-size: 15px;
+  font-family: "Open Sans Regular";
+}
+
+#services {
+  text-align: center;
+  background-color: #e4fdf9;
+  padding-top: 170px;
+  padding-bottom: 115px;
+}
+
+#services .first_row p {
+  padding-bottom: 110px;
+}
+
+#services h3 {
+  padding-bottom: 25px;
+}
+
+#services .my-card {
+  background-color: #fff;
+  padding: 50px 30px 40px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+#services .my-card i {
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+#services .my-card p {
+  padding-bottom: 30px;
+}
+
+#services .my-card button {
+  border: 1px solid #999;
+  text-transform: uppercase;
+  background: transparent;
+  padding: 15px 10px;
+  font-size: 20px;
+  font-family: "Open Sans Semibold";
+  letter-spacing: 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#services .my-card:hover {
+  background-color: #00897b;
+  color: white;
+  -webkit-box-shadow: -2px 9px 19px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: -2px 9px 19px 0px rgba(0, 0, 0, 0.7);
+  border: none;
+}
+
+#services .my-card:hover button {
+  color: white;
+  border: 1px solid white;
+}
+
+#portfolio {
+  padding: 120px 0;
+  text-align: center;
+}
+
+#portfolio h2 {
+  padding-bottom: 30px;
+}
+
+#portfolio p {
+  padding-bottom: 70px;
+}
+
+#portfolio button {
+  text-transform: uppercase;
+  padding: 10px 25px;
+  margin: 0 10px;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #00897b;
+  border: 2px solid #00897b;
+  outline: none;
+}
+
+#portfolio button:hover, #portfolio button.focused {
+  background-color: transparent;
+  border: 2px solid #026056;
+  color: #212121;
+}
+
+#portfolio .filter {
+  padding: 120px 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+#portfolio .filter div[filter]:hover img {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#portfolio .filter .text {
+  display: none;
+}
+
+#portfolio .filter div[filter]:hover .text {
+  display: block;
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 3;
+  text-align: center;
+}
+
+#portfolio .filter div[filter]:hover .text p {
+  color: #fff;
+}
+
+#portfolio .filter img {
+  margin-bottom: 30px;
+}
+
+#price {
+  background-color: #f0f1f1;
+  text-align: center;
+  color: #212121;
+  padding: 100px 0;
+}
+
+#price .price {
+  background-color: white;
+}
+
+#price .price .head {
+  background-image: url(../img/price/price-fon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-bottom: 65px;
+  max-height: 211px;
+  color: white;
+  font-size: 50px;
+}
+
+#price .price .head p {
+  font-size: 26px;
+  font-family: "Open Sans Regular";
+}
+
+#price .price .head sup {
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+#price .price .head sub {
+  vertical-align: middle;
+  font-size: 17px;
+}
+
+#price .price .body {
+  font-size: 17px;
+  color: #212121;
+}
+
+#price .price .body li {
+  max-width: 175px;
+  border-bottom: 1px solid #bfbfbf;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/params.scss"
+    ],
+    "names": [],
+    "file": "params.css"
+}

@@ -1,0 +1,35 @@
+@import '_params.scss';
+
+body{
+  font-family: 'Open Sans';
+}
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+@import '_mix.scss';
+
+.menu-bar{
+  background-color: #fff;
+  color: $color1;
+  padding: 20px 0;
+  li{
+    margin-left: 37px;
+    a {
+      font-family: $oss;
+      font-size: 20px;
+      color: #212121;
+      &:hover{
+        text-decoration: none;
+        color: #999;
+      }
+    }
+  }
+}
+@import '_header.scss';
+@import '_about.scss';
+@import '_services.scss';
+@import '_portfolio.scss';
+@import '_price.scss';

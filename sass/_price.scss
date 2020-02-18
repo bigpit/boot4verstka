@@ -1,0 +1,42 @@
+#price {
+  background-color: #f0f1f1;
+  text-align: center;
+  color: $color1;
+  padding: 100px 0;
+
+  .price {
+    background-color: white;
+    .head {
+      background-image: url(../img/price/price-fon.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-top: 40px;
+      padding-bottom: 65px;
+      max-height: 211px;
+      color: white;
+      font-size: 50px;
+      p{
+        font-size: 26px;
+        font-family: $osr;
+      }
+      sup {
+        vertical-align: middle;
+        font-size: 25px;
+      }
+      sub{
+        vertical-align: middle;
+        font-size: 17px;
+      }
+    }
+    .body {
+      font-size: 17px;
+      color: $color1;
+      li{
+        max-width: 175px;
+        border-bottom:1px solid #bfbfbf;
+      }
+    }
+    .footer {
+    }
+  }
+}

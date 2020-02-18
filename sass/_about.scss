@@ -1,0 +1,25 @@
+#about {
+  color: $color1;
+  background-color: #fff;
+  text-align: center;
+  padding:120px 0;
+  .first_row h2{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .first_row p{
+    font-size: 15px;
+    font-family: $osr;
+    padding-bottom: 110px;
+  }
+  h3{
+    font-size: 20px;
+    font-family: $oss;
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+  p{
+    font-size: 15px;
+    font-family: $osr;
+  }
+}
