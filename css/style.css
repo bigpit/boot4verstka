@@ -243,8 +243,20 @@ ul, li {
   padding: 100px 0;
 }
 
+#price .price_row {
+  padding-bottom: 100px;
+}
+
 #price .price {
   background-color: white;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#price .price:hover {
+  -webkit-box-shadow: -2px 9px 19px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: -2px 9px 19px 0px rgba(0, 0, 0, 0.7);
 }
 
 #price .price .head {
@@ -279,7 +291,39 @@ ul, li {
 }
 
 #price .price .body li {
+  margin: 0 auto;
   max-width: 175px;
   border-bottom: 1px solid #bfbfbf;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#price .price .footer {
+  padding: 60px 0;
+}
+
+#price .price .footer button {
+  background: transparent;
+  font-size: 20px;
+  border: 2px solid #212121;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  width: 180px;
+  height: 60px;
+}
+
+#price .price .footer button:hover {
+  background-color: #00897b;
+  color: white;
+  border: 2px solid #00897b;
+  text-transform: uppercase;
+}
+
+#team {
+  background-color: #ffffff;
+  text-align: center;
+  color: #212121;
+  padding: 100px 0;
 }
 /*# sourceMappingURL=style.css.map */

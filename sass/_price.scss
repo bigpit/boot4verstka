@@ -3,9 +3,17 @@
   text-align: center;
   color: $color1;
   padding: 100px 0;
+  .price_row{
+    padding-bottom: 100px;
+  }
 
   .price {
     background-color: white;
+    text-align: center;
+    transition: 0.3s;
+    &:hover{
+      box-shadow: -2px 9px 19px 0px rgba(0, 0, 0, 0.7);
+    }
     .head {
       background-image: url(../img/price/price-fon.png);
       background-size: cover;
@@ -32,11 +40,30 @@
       font-size: 17px;
       color: $color1;
       li{
+        margin: 0 auto;
         max-width: 175px;
         border-bottom:1px solid #bfbfbf;
+        padding-top: 30px;
+        padding-bottom: 10px;
       }
     }
     .footer {
+      padding: 60px 0;
+      button{
+        background: transparent;
+        font-size:20px;
+        border: 2px solid $color1;
+        transition: 0.3s;
+        outline: none;
+        width: 180px;
+        height: 60px;
+        &:hover{
+          background-color: #00897b;
+          color: white;
+          border: 2px solid #00897b;
+          text-transform: uppercase;
+        }
+      }
     }
   }
 }
