@@ -3,4 +3,33 @@
   text-align: center;
   color: $color1;
   padding: 100px 0;
+  img{width: 100%;}
+  h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: $oss;
+  }
+  p{
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    a i{
+      transition: 0.3s;
+    }
+    i:nth-child(1){
+      color: #f0f1f1;
+    }
+    a:hover i:nth-child(1){
+      color: #3949ab;
+    }
+    i:nth-child(2){
+      color: #00897b;
+    }
+    a:hover i:nth-child(2){
+      color: #fff;
+    }
+  }
 }
