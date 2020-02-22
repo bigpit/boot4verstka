@@ -331,6 +331,10 @@ ul, li {
   width: 100%;
 }
 
+#team .col-xl-4 {
+  outline: none;
+}
+
 #team h4 {
   margin-top: 30px;
   font-size: 20px;
@@ -370,5 +374,34 @@ ul, li {
 
 #team .icons a:hover i:nth-child(2) {
   color: #fff;
+}
+
+#team .multiple-items {
+  margin-top: 100px;
+}
+
+#team .dots-style {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#team .dots-style button {
+  background-color: #00897b;
+  border: none;
+  border-radius: 50%;
+  font-size: 0;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  outline: none;
+}
+
+#team .dots-style li[class="slick-active"] button {
+  background-color: #3949ab;
 }
 /*# sourceMappingURL=style.css.map */
