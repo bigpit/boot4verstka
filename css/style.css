@@ -404,4 +404,11 @@ ul, li {
 #team .dots-style li[class="slick-active"] button {
   background-color: #3949ab;
 }
+
+#blog {
+  text-align: center;
+  background-color: #e4fdf9;
+  padding-top: 170px;
+  padding-bottom: 115px;
+}
 /*# sourceMappingURL=style.css.map */
