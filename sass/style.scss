@@ -12,11 +12,16 @@ ul, li {
 @import '_mix.scss';
 
 .menu-bar{
+  opacity: 0.9;
+  position: fixed;
   background-color: #fff;
   color: $color1;
   padding: 20px 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid #ddd;
   li{
-    margin-left: 37px;
+    margin-left: 30px;
     a {
       font-family: $oss;
       font-size: 20px;
@@ -35,3 +40,5 @@ ul, li {
 @import '_price.scss';
 @import '_team.scss';
 @import '_blog.scss';
+@import '_footer.scss';
+@import '_media.scss';

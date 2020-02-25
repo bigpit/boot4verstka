@@ -1,0 +1,93 @@
+footer{
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 120px;
+  color: white;
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .circle{
+    width: 100px;
+    height: 100px;
+    background-color: #3949ab;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 35px;
+    + p{
+      font-size: 20px;
+    }
+  }
+  i{
+    font-size: 64px;
+    color: white;
+  }
+ 
+  .form{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    input, textarea{
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      width: 100%;
+      outline: none;
+      border:none;
+      font-size: 20px;
+    }
+    textarea{
+      resize: none;
+    }
+    button{
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font-size: 22px;
+      text-transform: uppercase;
+      border-radius: 10px;
+      padding: 20px 80px;
+      outline: none;
+      border: none;
+      transition: 0.3s;
+      background-color: white;
+      &:hover{
+        outline: none;
+        opacity: 0.7;
+        background-color: #121212;
+        color: white;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+}
+.footer{
+  padding: 20px 0;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: $oss;
+}
+/*Кнопка наверх*/
+#toTop {
+  z-index: 3;
+  width: 120px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  border-radius: 3px;
+  background: #00897b;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  color: #fff;
+  opacity: 0.9;
+}
+.menu-icon{
+  display: none;
+}
