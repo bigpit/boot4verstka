@@ -606,6 +606,10 @@ footer .form button:focus {
   display: none;
 }
 
+.menu-icon {
+  display: none;
+}
+
 @media (max-width: 1215px) {
   #blog .right > div:first-child {
     -webkit-box-ordinal-group: 2;
