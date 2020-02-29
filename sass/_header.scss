@@ -13,6 +13,9 @@
     font-family: "Open Sans Regular";
     padding-bottom: 100px;
   }
+  .menu-icon{
+    outline: none;
+  }
 
   button {
     text-transform: uppercase;
@@ -25,6 +28,7 @@
     &:hover {
       background-color: #026056;
       border: 2px solid #fff;
+      outline: none;
     }
   }
 }

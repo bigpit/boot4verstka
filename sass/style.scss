@@ -32,6 +32,9 @@ ul, li {
       }
     }
   }
+  .menu-icon{
+    outline: none;
+  }
 }
 @import '_header.scss';
 @import '_about.scss';

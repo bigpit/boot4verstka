@@ -52,6 +52,10 @@ ul, li {
   color: #999;
 }
 
+.menu-bar .menu-icon {
+  outline: none;
+}
+
 .header {
   text-align: center;
   padding: 180px 0;
@@ -71,6 +75,10 @@ ul, li {
   padding-bottom: 100px;
 }
 
+.header .menu-icon {
+  outline: none;
+}
+
 .header button {
   text-transform: uppercase;
   padding: 10px 25px;
@@ -85,6 +93,7 @@ ul, li {
 .header button:hover {
   background-color: #026056;
   border: 2px solid #fff;
+  outline: none;
 }
 
 #about {
