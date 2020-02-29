@@ -258,6 +258,7 @@ ul, li {
   text-align: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  margin-bottom: 30px;
 }
 
 #price .price:hover {
@@ -627,6 +628,10 @@ footer .form button:focus {
   #blog .button-blog {
     margin-top: 0;
   }
+  #blog img {
+    margin: 15px 0;
+    border: 2px solid #ccc;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -653,6 +658,84 @@ footer .form button:focus {
     border: none;
     color: white;
     display: block;
+  }
+  #blog .left, #blog .right {
+    margin: unset;
+  }
+  #blog p {
+    padding-bottom: unset;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-bar .menu-icon {
+    font-size: 37px;
+    width: 58px;
+    height: 55px;
+  }
+  .header {
+    padding: 150px 0;
+    padding-bottom: 50px;
+  }
+  .header h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .header p {
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  .header button {
+    margin-bottom: 20px;
+  }
+  #about {
+    padding-top: 50px;
+  }
+  #services {
+    padding: 50px 0;
+  }
+  #services .first_row p {
+    padding-bottom: 50px;
+  }
+  #portfolio {
+    padding: 70px 0;
+  }
+  #portfolio .filter {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  #portfolio button {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #price {
+    padding: 70px 0;
+  }
+  #price .price_row {
+    padding-bottom: 50px;
+  }
+  #team .multiple-items {
+    margin-top: 30px;
+  }
+  #team .dots-style {
+    margin-top: 40px;
+  }
+  #blog {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  #blog .left, #blog .right {
+    margin: unset;
+  }
+  #blog .blog span {
+    display: block;
+  }
+  #footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
